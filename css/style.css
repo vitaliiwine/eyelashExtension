@@ -1,0 +1,62 @@
+/* Base Styles --------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #4c3d74;
+    font-family: 'Futura', sans-serif;
+    font-style: normal;
+    color: #fff;
+}
+
+/* Text --------------------- */
+
+#name {
+    position: absolute;
+    width: 871px;
+    height: 66px;
+    left: 139px;
+    top: 288px;
+
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 66px;
+
+    text-shadow: 0 0 10px #a387c4;
+}
+
+#intro-1 {
+    position: absolute;
+    width: 660px;
+    height: 120px;
+    left: 140px;
+    top: 394px;
+
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#intro-2 {
+    position: absolute;
+    width: 650px;
+    height: 48px;
+    left: 139px;
+    top: 532px;
+
+    font-weight: 500;
+    line-height: 24px;
+}
+
+#sub-heading-1 {
+    position: absolute;
+    width: 219px;
+    height: 66px;
+    left: 140px;
+    top: 600px;
+
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 66px;
+}
