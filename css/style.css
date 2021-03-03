@@ -9,16 +9,14 @@ body {
     font-family: 'Futura', sans-serif;
     font-style: normal;
     color: #fff;
+    margin: 0;
 }
 
 /* Text --------------------- */
 
 #name {
-    /*position: absolute;*/
     width: 871px;
     height: 66px;
-    left: 139px;
-    top: 288px;
 
     font-size: 50px;
     font-weight: bold;
@@ -27,55 +25,40 @@ body {
     text-shadow: 0 0 10px #a387c4;
 }
 
-#intro-1 {
-    /*position: absolute;*/
+#about-1 {
     width: 660px;
     height: 120px;
-    left: 140px;
-    top: 394px;
 
     font-size: 16px;
     line-height: 24px;
 }
 
-#intro-2 {
-    /*position: absolute;*/
+#about-2 {
     width: 650px;
     height: 48px;
-    left: 139px;
-    top: 532px;
 
     font-weight: 500;
     line-height: 24px;
 }
 
-#sub-heading-1 {
-    /*position: absolute;*/
-    display: block;
+#number-income {
     float: left;
     width: 219px;
     height: 66px;
-    left: 140px;
-    top: 600px;
 
     font-size: 50px;
     font-weight: bold;
     line-height: 66px;
 }
 
-#caption-1 {
-    /*position: absolute;*/
+#caption-income {
     float: left;
-    width: 251px;
     height: 24px;
 }
 
 #sub-heading-2 {
-    /*position: absolute;*/
     width: 236px;
     height: 66px;
-    left: 461px;
-    top: 600px;
 
     font-size: 50px;
     font-weight: bold;
@@ -83,7 +66,6 @@ body {
 }
 
 #caption-2 {
-    /*position: absolute;*/
     width: 236px;
     height: 24px;
 }
@@ -99,7 +81,6 @@ body {
 /* Images --------------------- */
 
 #party-face {
-    position: absolute;
     width: 472px;
     height: 472px;
     left: 893px;
@@ -114,8 +95,8 @@ body {
     border-radius: 50px;
     width: 318px;
     height: 318px;
-    left: 960px;
-    top: 320px;
+    left: 800px;
+    top: 360px;
 
     background: #a387c4;
     filter: blur(400px);
@@ -123,10 +104,23 @@ body {
 
 /* Containers --------------------- */
 
+header {
+    position: relative;
+    max-width: 1150px;
+    margin: auto;
+}
+
 #container-text {
-    width: 660px;
+    width: 56.5%;
+    float: left;
     margin-top: 288px;
-    margin-left: 140px;
+    /*margin-left: 140px;*/
+}
+
+#container-img {
+    width: 36.5%;
+    float: right;
+    margin-top: 260px;
 }
 
 #income, #clients {
@@ -146,5 +140,3 @@ body {
     display: table;
     clear: both;
 }
-
-
