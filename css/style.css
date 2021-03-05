@@ -21,7 +21,12 @@ a {
 }
 
 /* Text --------------------- */
+
 /* Header */
+
+#name {
+    text-shadow: 0 0 10px #a387c4;
+}
 
 header {
     margin: auto;
