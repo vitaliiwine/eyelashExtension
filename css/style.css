@@ -21,197 +21,85 @@ a {
 }
 
 /* Text --------------------- */
-
 /* Header */
 
-#name {
-    width: 871px;
-    height: 66px;
-
-    font-size: 50px;
-    font-weight: bold;
-    line-height: 66px;
-
-    text-shadow: 0 0 10px #a387c4;
+header {
+    margin: auto;
+    max-width: 325px;
 }
 
-#about-1 {
-    width: 660px;
-    height: 120px;
-
-    font-size: 16px;
-    line-height: 24px;
-}
-
-#about-2 {
-    width: 650px;
-    height: 48px;
-
-    font-weight: 500;
-    line-height: 24px;
-}
-
-#number-income {
-    float: left;
-    width: 219px;
-    height: 66px;
-
-    font-size: 50px;
-    font-weight: bold;
-    line-height: 66px;
-}
-
-#caption-income {
-    float: left;
-    height: 24px;
-}
-
-#number-clients {
-    width: 236px;
-    height: 66px;
-
-    font-size: 50px;
-    font-weight: bold;
-    line-height: 66px;
-}
-
-#caption-clients {
-    width: 236px;
-    height: 24px;
-}
-
-#number-income, #number-clients {
-    margin-bottom: 0;
-}
-
-#caption-income, #caption-clients {
-    margin-top: 5px;
+#container-text {
+    margin-top: 115px;
 }
 
 /* Main */
 
 .container-text-inner {
-    width: 900px;
-    margin: auto;
-    margin-top: 65px;
+    margin-top: 45px;
 }
 
 .text-inner-small {
-    height: 27px;
+    height: 21px;
     font-weight: bold;
-    font-size: 20px;
-    line-height: 27px;
+    font-size: 16px;
+    line-height: 21px;
 }
 
 .text-inner-large {
+    height: 99px;
     font-weight: bold;
-    font-size: 50px;
-    line-height: 66px;
-    text-align: center;
+    font-size: 25px;
+    line-height: 33px;
 
     margin-top: 20px;
     margin-bottom: 0;
 }
 
 .text-inner-large + .text-inner-small {
-    margin-top: 10px;
+    margin-top: -25px;
 }
 
-.sign-up + .details {
-    text-decoration: underline;
+#text-tik-tok {
+    height: 50px;
+    margin-top: 60px;
+}
+
+.details {
+    margin-top: 60px;
 }
 
 /* Images --------------------- */
 
 #party-face {
-    width: 472px;
-    height: 472px;
-
-    left: 893px;
-    top: 230px;
-    z-index: 1;
+    width: 246px;
+    height: 246px;
+    margin: auto;
+    display: block;
 }
 
-#astonished-face {
-    position: absolute;
-    width: 268px;
-    height: 268px;
 
-    left: -5px;
-    top: 145px;
-}
-
-#smiling-face-with-hearts {
-    position: absolute;
-    width: 269px;
-    height: 269px;
-
-    right: -5px;
-    top: 145px;
-}
-
-#thumbs-up {
-    position: absolute;
-    width: 280px;
-    height: 281px;
-
-    left: -5px;
-    top: 105px;
-}
-
-#star-struck {
-    position: absolute;
-    width: 276px;
-    height: 276px;
-
-    right: -5px;
-    top: 105px;
+#astonished-face, #smiling-face-with-hearts,
+#thumbs-up, #star-struck, #victory-hand {
+    display: none;
 }
 
 #face-blowing-a-kiss {
-    position: absolute;
-    width: 273px;
-    height: 273px;
-
-    left: -5px;
-    top: 70px;
-}
-
-#victory-hand {
-    position: absolute;
-    width: 284px;
-    height: 284px;
-
-    right: -35px;
-    top: 70px;
-}
-
-
-
-/* Shapes --------------------- */
-
-#blur {
-    position: absolute;
-    border-radius: 50px;
-    width: 318px;
-    height: 318px;
-    left: 800px;
-    top: 360px;
-
-    background: #a387c4;
-    filter: blur(400px);
+    width: 250px;
+    height: 250px;
+    margin-bottom: 160px;
 }
 
 /* Buttons --------------------- */
 
 .sign-up {
-    width: 400px;
-    height: 70px;
+    width: 246px;
+    height: 60px;
 
     background: #a387c4;
     border-radius: 30px;
     border: #a387c4;
     text-align: center;
+    margin-top: 25px;
     margin-bottom: 15px;
 }
 
@@ -222,40 +110,69 @@ a {
     font-size: 16px;
     color: #fff;
 
-    height: 21px;
+    height: 18px;
     line-height: 21px;
 }
 
-.text-inner-large + .sign-up {
-    margin-top: 40px;
-}
-
 .text-inner-small + .sign-up {
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 #text-tik-tok + .sign-up {
-    margin-top: 50px;
+    margin-top: 0;
 }
 
-/* Containers --------------------- */
+/* Containers -----------------*/
 
-header {
-    position: relative;
-    max-width: 1160px;
-    margin: auto;
-}
-
-#container-text {
-    width: 56.5%;
-    float: left;
-    margin-top: 238px;
-}
+/* Header */
 
 #container-img {
-    width: 36.5%;
-    float: right;
-    margin-top: 220px;
+    margin: 5px auto 15px;
+}
+
+#number-income {
+    width: 131px;
+    height: 40px;
+    float: left;
+
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+#caption-income {
+    height: 48px;
+    float: left;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+#number-clients {
+    width: 142px;
+    height: 40px;
+
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px;
+}
+
+#caption-clients {
+    width: 186px;
+    height: 44px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+#number-income, #number-clients {
+    margin-bottom: 0;
+}
+
+#caption-income, #caption-clients {
+    margin-top: 5px;
 }
 
 #income, #clients {
@@ -279,17 +196,12 @@ header {
 /* Main */
 
 .main-content {
-    width: 1160px;
-    margin: auto;
-    margin-top: 80px;
-}
-
-.relative {
-    position: relative;
+    width: 323px;
+    margin: 25px auto;
 }
 
 #intensive {
-    height: 324px;
+    height: 246px;
 
     border: 5px solid #a387c4;
     border-radius: 30px;
@@ -299,26 +211,344 @@ header {
 }
 
 #online {
-    height: 289px;
+    height: 245px;
 
     border: 5px solid #a387c4;
     border-radius: 30px;
     box-shadow: 0 0 10px 3px #a387c4;
 
     text-align: center;
-}
 
-#online, #tik-tok {
-    margin-top: 150px;
+    margin-top: 60px;
 }
-
 
 #tik-tok {
-    height: 223px;
+    height: 147px;
 
     border: 5px solid #a387c4;
     border-radius: 30px;
     box-shadow: 0 0 10px 3px #a387c4;
 
     text-align: center;
+
+    margin-top: 60px;
 }
+
+@media (min-width: 992px) {
+
+    /* Text --------------------- */
+
+    /* Header */
+
+    #name {
+        width: 871px;
+        height: 66px;
+
+        font-size: 50px;
+        font-weight: bold;
+        line-height: 66px;
+
+        text-shadow: 0 0 10px #a387c4;
+    }
+
+    #about-1 {
+        width: 660px;
+        height: 120px;
+
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    #about-2 {
+        width: 650px;
+        height: 48px;
+
+        font-weight: 500;
+        line-height: 24px;
+    }
+
+    #number-income {
+        float: left;
+        width: 219px;
+        height: 66px;
+
+        font-size: 50px;
+        font-weight: bold;
+        line-height: 66px;
+    }
+
+    #caption-income {
+        float: left;
+        height: 24px;
+    }
+
+    #number-clients {
+        width: 236px;
+        height: 66px;
+
+        font-size: 50px;
+        font-weight: bold;
+        line-height: 66px;
+    }
+
+    #caption-clients {
+        width: 236px;
+        height: 24px;
+    }
+
+    #number-income, #number-clients {
+        margin-bottom: 0;
+    }
+
+    #caption-income, #caption-clients {
+        margin-top: 5px;
+    }
+
+    /* Main */
+
+    .container-text-inner {
+        width: 900px;
+        margin: auto;
+        margin-top: 65px;
+    }
+
+    .text-inner-small {
+        height: 27px;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .text-inner-large {
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 66px;
+        text-align: center;
+
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .text-inner-large + .text-inner-small {
+        margin-top: -15px;
+    }
+
+    .sign-up + .details {
+        text-decoration: underline;
+    }
+
+    /* Images --------------------- */
+
+    #party-face {
+        width: 472px;
+        height: 472px;
+
+        left: 893px;
+        top: 230px;
+        z-index: 1;
+    }
+
+    #astonished-face {
+        position: absolute;
+        width: 268px;
+        height: 268px;
+
+        left: -5px;
+        top: 145px;
+    }
+
+    #smiling-face-with-hearts {
+        position: absolute;
+        width: 269px;
+        height: 269px;
+
+        right: -5px;
+        top: 145px;
+    }
+
+    #thumbs-up {
+        position: absolute;
+        width: 280px;
+        height: 281px;
+
+        left: -5px;
+        top: 105px;
+    }
+
+    #star-struck {
+        position: absolute;
+        width: 276px;
+        height: 276px;
+
+        right: -5px;
+        top: 105px;
+    }
+
+    #face-blowing-a-kiss {
+        position: absolute;
+        width: 273px;
+        height: 273px;
+
+        left: -5px;
+        top: 70px;
+    }
+
+    #victory-hand {
+        position: absolute;
+        width: 284px;
+        height: 284px;
+
+        right: -35px;
+        top: 70px;
+    }
+
+
+    /* Shapes --------------------- */
+
+    #blur {
+        position: absolute;
+        border-radius: 50px;
+        width: 318px;
+        height: 318px;
+        left: 800px;
+        top: 360px;
+
+        background: #a387c4;
+        filter: blur(400px);
+    }
+
+    /* Buttons --------------------- */
+
+    .sign-up {
+        width: 400px;
+        height: 70px;
+
+        background: #a387c4;
+        border-radius: 30px;
+        border: #a387c4;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .button-text, .details {
+        font-family: 'Futura', sans-serif;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 16px;
+        color: #fff;
+
+        height: 21px;
+        line-height: 21px;
+    }
+
+    .details {
+        margin-top: 10px;
+    }
+
+    .text-inner-large + .sign-up {
+        margin-top: 70px;
+    }
+
+    .text-inner-small + .sign-up {
+        margin-top: 5px;
+    }
+
+    #text-tik-tok + .sign-up {
+        margin-top: 65px;
+    }
+
+    /* Containers --------------------- */
+
+    /* Header */
+
+    header {
+        position: relative;
+        max-width: 1160px;
+        margin: auto;
+    }
+
+    #container-text {
+        width: 56.5%;
+        float: left;
+        margin-top: 238px;
+    }
+
+    #container-img {
+        width: 36.5%;
+        float: right;
+        margin-top: 220px;
+    }
+
+    #income, #clients {
+        width: 46.5%;
+    }
+
+    #income {
+        float: left;
+    }
+
+    #clients {
+        float: right;
+    }
+
+    .group:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Main */
+
+    #astonished-face, #smiling-face-with-hearts,
+    #thumbs-up, #star-struck, #victory-hand {
+        display: flex;
+    }
+
+    .main-content {
+        width: 1160px;
+        margin: 80px auto 0;
+    }
+
+    .relative {
+        position: relative;
+    }
+
+    #intensive {
+        height: 324px;
+
+        border: 5px solid #a387c4;
+        border-radius: 30px;
+        box-shadow: 0 0 10px 3px #a387c4;
+
+        text-align: center;
+    }
+
+    #online {
+        height: 289px;
+
+        border: 5px solid #a387c4;
+        border-radius: 30px;
+        box-shadow: 0 0 10px 3px #a387c4;
+
+        text-align: center;
+    }
+
+    #online, #tik-tok {
+        margin-top: 150px;
+    }
+
+
+    #tik-tok {
+        height: 223px;
+
+        border: 5px solid #a387c4;
+        border-radius: 30px;
+        box-shadow: 0 0 10px 3px #a387c4;
+
+        text-align: center;
+
+        margin-bottom: 260px;
+    }
+
+}
+
