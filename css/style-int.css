@@ -177,6 +177,56 @@ li {
     margin-bottom: 50px;
 }
 
+.sign-up + .text-medium {
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+/* Quinary */
+
+.width-quinary > .text-large {
+    text-align: center;
+    padding-top: 150px;
+
+    margin-bottom: 50px;
+}
+
+.lite-header, .lite-length {
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 150%;
+}
+
+.lite-line {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+
+    margin: 0;
+}
+
+.lite-span {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 150%;
+
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.lite-span-price {
+    font-size: 16px;
+    font-weight: 800;
+
+    float: right;
+}
+
+.lite-caption {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
 /* Containers -------------------- */
 
 /* Primary */
@@ -293,7 +343,6 @@ li {
     position: relative;
 }
 
-
 .container-text-tertiary, .container-image-tertiary {
     margin-top: 0;
 }
@@ -318,7 +367,7 @@ li {
 /* Quaternary */
 
 #container-quaternary {
-    height: 1200px;
+    height: 1123px;
     background: #fff;
 }
 
@@ -329,6 +378,56 @@ li {
     position: relative;
 }
 
+.li-quaternary {
+    color: #4c3d74;
+    border-top: 3px solid #504178;
+    padding: 20px 0 5px;
+    letter-spacing: 1px;
+}
+
+.add {
+    float: right;
+}
+
+.wrapper-list {
+    border-bottom: 3px solid #504178;
+    margin-bottom: 50px;
+}
+
+/* Quinary */
+
+#container-quinary {
+    height: 1200px;
+    background: #4c3d74;
+}
+
+.width-quinary {
+    max-width: 1160px;
+    margin: auto;
+}
+
+.wrapper-rates {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+}
+
+.rate {
+    width: 364px;
+    height: 545px;
+
+    background: #f2eef7;
+    border: 3px solid #4c3d74;
+    border-radius: 30px;
+
+    position: relative;
+}
+
+.lite-text-inner {
+    padding: 35px;
+}
 
 /* Images --------------------- */
 
@@ -367,6 +466,23 @@ li {
 
 #photo-julia {
     margin-top: 30px;
+}
+
+/* Quaternary */
+
+.text-medium + .image-container {
+    right: 100px;
+}
+
+/* Quinary */
+
+.lite-image {
+    width: 128px;
+
+    position: absolute;
+
+    top: -40px;
+    right: -45px;
 }
 
 /* Buttons --------------------- */
@@ -419,6 +535,14 @@ li {
     vertical-align: middle;
 }
 
+/* Quinary */
+
+.lite-text-inner + .sign-up {
+    position: absolute;
+    left: 55px;
+    bottom: -30px;
+}
+
 /* Shapes ------------------------ */
 
 #blur {
@@ -434,15 +558,5 @@ li {
     filter: blur(400px);
 }
 
-.li-quaternary {
-    color: #4c3d74;
-    border-top: 3px solid #504178;
-    padding: 20px 0 5px;
-}
 
-.add {
-    float: right;
-}
-.wrapper-list:last-child {
-    border-bottom: 3px solid #504178;
-}
+
