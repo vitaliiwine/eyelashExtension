@@ -227,6 +227,19 @@ li {
     line-height: 150%;
 }
 
+.text-caption-quinary {
+    width: 560px;
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 150%;
+
+    margin-left: 100px;
+
+    display: inline-block;
+    vertical-align: middle;
+}
+
 /* Containers -------------------- */
 
 /* Primary */
@@ -431,6 +444,10 @@ li {
     padding: 35px;
 }
 
+.wrapper-caption-quinary {
+    position: relative;
+}
+
 /* Images --------------------- */
 
 /* Primary */
@@ -489,6 +506,7 @@ li {
 
 .img-caption-quinary {
     position: absolute;
+    top: 20px;
 }
 /* Buttons --------------------- */
 
@@ -548,15 +566,26 @@ li {
     bottom: -30px;
 }
 
-.text-caption-quinary {
-    width: 573px;
+.button-blue-print {
+    width: 245px;
+    height: 60px;
 
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 150%;
-
-    margin-left: 110px;
+    background: #4c3d74;
+    border: 3px solid #a387c4;
+    border-radius: 30px;
 }
+
+.button-insta {
+    width: 245px;
+    height: 60px;
+
+    background: #4c3d74;
+    border: 3px solid #4c3d74;
+    border-radius: 30px;
+}
+
+
+
 
 /* Shapes ------------------------ */
 
