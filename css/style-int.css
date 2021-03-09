@@ -26,6 +26,13 @@ li {
     padding: 0;
 }
 
+/* Global -------------------------- */
+
+.width {
+    max-width: 1160px;
+    margin: auto;
+}
+
 /* Text Colors --------------------- */
 
 .white {
@@ -240,20 +247,31 @@ li {
     vertical-align: middle;
 }
 
+/* Quinary */
+
+.width-senary > .text-large {
+    text-align: center;
+    padding-top: 150px;
+    margin-bottom: 50px;
+}
+
+/* Senary */
+
+.img-tg-up + .text-medium {
+    width: 360px;
+    margin-left: 20px;
+}
+
 /* Containers -------------------- */
 
 /* Primary */
 
 #container-primary {
     height: 800px;
-    border: 1px solid #4c3d74;
-}
 
-.width-primary {
-    max-width: 1160px;
-    margin: auto;
     padding-top: 115px;
 
+    border: 1px solid #4c3d74;
     position: relative;
 }
 
@@ -261,21 +279,20 @@ li {
     height: 38px;
 }
 
-.container-text {
+.container-text-primary {
     width: 65%;
     float: left;
     margin: 120px 0 80px;
 }
 
-.container-img {
+.container-img-primary {
     width: 35%;
     float: right;
-    /*border: 2px solid red;*/
 
     position: relative;
 }
 
-.group {
+.clear-fix {
     content: "";
     display: table;
     clear: both;
@@ -448,6 +465,24 @@ li {
     position: relative;
 }
 
+/* Senary */
+
+#container-senary {
+    height: 850px;
+    background: #fff;
+}
+
+.width-senary {
+    max-width: 1160px;
+    margin: auto;
+
+    position: relative;
+}
+
+.container-caption-senary {
+    position: relative;
+}
+
 /* Images --------------------- */
 
 /* Primary */
@@ -508,6 +543,29 @@ li {
     position: absolute;
     top: 20px;
 }
+
+/* Senary */
+
+.img-tg-up, .img-tg-down {
+    vertical-align: middle;
+}
+
+.img-tg-up {
+    position: absolute;
+    top: 34px;
+    left: 8px;
+}
+
+.image-container-senary {
+    position: absolute;
+    bottom: -130px;
+    right: 40px;
+}
+
+.container-caption-senary + .image-container-senary {
+    right: 100px;
+}
+
 /* Buttons --------------------- */
 
 /* Primary */
@@ -584,9 +642,6 @@ li {
     border-radius: 30px;
 }
 
-
-
-
 /* Shapes ------------------------ */
 
 #blur {
@@ -602,5 +657,5 @@ li {
     filter: blur(400px);
 }
 
-
+/* 601 */
 
