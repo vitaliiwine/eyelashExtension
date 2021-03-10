@@ -94,6 +94,39 @@ li {
     margin-left: 25px;
 }
 
+/* Tertiary */
+
+.width-tertiary > .text-large {
+    text-align: center;
+    padding: 115px 0 40px;
+}
+
+.text-label {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 0;
+    padding-bottom: 20px;
+}
+
+.container-labels + .text-large {
+    padding: 60px 0 20px;
+}
+
+#wrapper-inner-text-1, #wrapper-inner-text-2, #wrapper-inner-text-3 {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.number {
+    font-size: 30px;
+    line-height: 40px;
+}
+
 /* Containers ----------------------- */
 
 /* Primary */
@@ -144,6 +177,31 @@ li {
     border-radius: 30px;
 }
 
+/* Tertiary */
+
+#container-tertiary {
+    height: 2400px;
+}
+
+.width-tertiary {
+    max-width: 360px;
+    margin: auto;
+}
+
+.container-labels {
+    position: relative;
+}
+
+.container-highlights {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.time, .years, .income, .clients {
+    width: 160px;
+}
 
 /* Buttons ------------------------- */
 
@@ -213,6 +271,25 @@ li {
 .sign-up + .image-container {
     width: 215px;
     margin-left: 70px;
+}
+
+/* Tertiary */
+
+.image-label {
+    width: 46px;
+    position: absolute;
+    left: 10px;
+}
+
+#photo-julia {
+    width: 303px;
+    height: 373px;
+
+    margin-top: 30px;
+}
+
+.container-img-tertiary {
+    text-align: center;
 }
 
 @media (min-width: 1315px) {
@@ -323,6 +400,11 @@ li {
         font-weight: bold;
         font-size: 16px;
         line-height: 150%;
+
+        margin-left: 5px;
+        margin-top: 20px;
+        padding-bottom: 0;
+
     }
 
     .container-labels + .text-large {
@@ -739,14 +821,20 @@ li {
     /* Tertiary */
 
     .image-label {
+        width: 66px;
+
         position: absolute;
         left: -80px;
         top: 10px;
     }
 
     #photo-julia {
+        width: 399px;
+        height: 491px;
+
         margin-top: 30px;
     }
+
 
     /* Quaternary */
 
