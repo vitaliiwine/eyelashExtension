@@ -69,6 +69,31 @@ li {
     line-height: 40px;
 }
 
+/* Secondary */
+
+.width-secondary > .text-large {
+    text-align: center;
+    padding: 115px 0 40px;
+}
+
+.text-badge {
+    width: 253px;
+
+    padding: 15px 5px;
+    margin-left: 25px;
+
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.container-badges + .text-medium {
+    width: 304px;
+    font-weight: 800;
+
+    margin-left: 25px;
+}
+
 /* Containers ----------------------- */
 
 /* Primary */
@@ -91,6 +116,34 @@ li {
     text-align: center;
     margin-top: 130px;
 }
+
+/* Secondary */
+
+#container-secondary {
+    height: 1238px;
+    background: #fff;
+}
+
+.width-secondary {
+    max-width: 360px;
+    margin: auto;
+
+    position: relative;
+}
+
+.badge {
+    position: relative;
+
+    width: 304px;
+    height: 140px;
+    margin: 0 25px 50px;
+
+    background: #e5e5e5;
+
+    border: 3px solid #4c3d74;
+    border-radius: 30px;
+}
+
 
 /* Buttons ------------------------- */
 
@@ -126,6 +179,12 @@ li {
     letter-spacing: 1px;
 }
 
+/* Secondary */
+
+.text-medium + .sign-up {
+    margin: 30px 30px 40px;
+}
+
 /* Images --------------------- */
 
 /* Primary */
@@ -137,7 +196,24 @@ li {
     margin-left: 30px;
 }
 
+/* Secondary */
 
+.image-badge {
+    position: absolute;
+    top: -35px;
+    left: -10px;
+    width: 61px;
+}
+
+.image-badge-mobile-right {
+    top: -35px;
+    left: 235px;
+}
+
+.sign-up + .image-container {
+    width: 215px;
+    margin-left: 70px;
+}
 
 @media (min-width: 1315px) {
 
@@ -209,15 +285,14 @@ li {
 
     .width-secondary > .text-large {
         text-align: center;
-        padding-top: 150px;
+        padding: 150px 0 0;
         margin-bottom: 60px;
     }
 
     .text-badge {
         width: 253px;
 
-        padding: 5px;
-        margin-left: 55px;
+        margin-left: 45px;
 
         font-weight: bold;
         font-size: 16px;
@@ -226,6 +301,9 @@ li {
 
     .container-badges + .text-medium {
         width: 555px;
+
+        font-weight: 700;
+        text-align: left;
         margin-right: 0;
     }
 
@@ -428,7 +506,7 @@ li {
     /* Secondary */
 
     #container-secondary {
-        height: 700px;
+        height: 717px;
         background: #fff;
     }
 
@@ -595,7 +673,7 @@ li {
     /* Senary */
 
     #container-senary {
-        height: 850px;
+        height: 890px;
         background: #fff;
     }
 
@@ -655,6 +733,7 @@ li {
         position: absolute;
         bottom: -150px;
         right: 40px;
+        width: 243px;
     }
 
     /* Tertiary */
@@ -692,6 +771,7 @@ li {
     }
 
     /* Senary */
+
     .img-tg-up, .img-tg-down {
         vertical-align: middle;
     }
@@ -719,6 +799,8 @@ li {
     .sign-up {
         width: 245px;
         height: 60px;
+
+        margin: 0;
 
         background: #a387c4;
         border: #a387c4;
@@ -760,6 +842,10 @@ li {
 
     .button-text-secondary, .text-medium {
         vertical-align: middle;
+    }
+
+    #sign-up-mobile {
+        margin: 0;
     }
 
     /* Quinary */
