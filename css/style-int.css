@@ -127,6 +127,38 @@ li {
     line-height: 40px;
 }
 
+/* Quaternary */
+
+.width-quaternary > .text-large {
+    text-align: center;
+    padding: 115px 0 40px;
+}
+
+.li-quaternary {
+    color: #4c3d74;
+    border-top: 3px solid #504178;
+    padding: 20px 0 5px;
+    letter-spacing: 1px;
+}
+
+.add {
+    float: right;
+}
+
+.wrapper-list {
+    border-bottom: 3px solid #504178;
+    margin-bottom: 50px;
+}
+
+.sign-up + .text-medium {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 150%;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 /* Containers ----------------------- */
 
 /* Primary */
@@ -180,7 +212,7 @@ li {
 /* Tertiary */
 
 #container-tertiary {
-    height: 2400px;
+    height: 2300px;
 }
 
 .width-tertiary {
@@ -202,6 +234,21 @@ li {
 .time, .years, .income, .clients {
     width: 160px;
 }
+
+/* Quaternary */
+
+#container-quaternary {
+    height: 1465px;
+    background: #fff;
+}
+
+.width-quaternary {
+    max-width: 360px;
+    margin: auto;
+
+    position: relative;
+}
+
 
 /* Buttons ------------------------- */
 
@@ -241,6 +288,12 @@ li {
 
 .text-medium + .sign-up {
     margin: 30px 30px 40px;
+}
+
+/* Quaternary */
+
+.wrapper-list + .sign-up {
+    margin-left: 30px;
 }
 
 /* Images --------------------- */
@@ -291,6 +344,16 @@ li {
 .container-img-tertiary {
     text-align: center;
 }
+
+/* Quaternary */
+
+.image-container {
+    /*position: absolute;*/
+    /*right: 40px;*/
+    width: 215px;
+    margin-left: 70px;
+}
+
 
 @media (min-width: 1315px) {
 
@@ -444,8 +507,13 @@ li {
     }
 
     .sign-up + .text-medium {
-        margin-left: 50px;
         font-weight: bold;
+        line-height: 150%;
+        text-align: left;
+
+        margin-left: 50px;
+        margin-top: 20px;
+        margin-bottom: 15px;
     }
 
     /* Quinary */
@@ -684,7 +752,7 @@ li {
     /* Quaternary */
 
     #container-quaternary {
-        height: 1123px;
+        height: 1163px;
         background: #fff;
     }
 
