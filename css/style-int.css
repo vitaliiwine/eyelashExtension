@@ -159,6 +159,49 @@ li {
     margin-bottom: 40px;
 }
 
+/* Quinary */
+
+.width-quinary > .text-large {
+    text-align: center;
+    padding: 115px 0 40px;
+}
+
+.rate-header, .rate-length {
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 150%;
+}
+
+.rate-line {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+
+    margin: 0;
+}
+
+.rate-span {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 150%;
+
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.rate-span-price {
+    font-size: 16px;
+    font-weight: 800;
+
+    float: right;
+}
+
+.rate-caption {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
 /* Containers ----------------------- */
 
 /* Primary */
@@ -238,7 +281,7 @@ li {
 /* Quaternary */
 
 #container-quaternary {
-    height: 1565px;
+    height: 1465px;
     background: #fff;
 }
 
@@ -248,6 +291,47 @@ li {
 
     position: relative;
 }
+
+/* Quinary */
+
+#container-quinary {
+    height: 2738px;
+}
+
+.width-quinary {
+    max-width: 360px;
+    margin: auto;
+
+    position: relative;
+}
+
+.rate {
+    width: 314px;
+    height: 605px;
+
+    margin: 0 auto 65px;
+
+    background: #f2eef7;
+    border: 3px solid #4c3d74;
+    border-radius: 30px;
+
+    position: relative;
+}
+
+.rate-text-inner {
+    padding: 50px 25px;
+}
+
+.text-caption-quinary {
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 150%;
+
+    text-align: center;
+}
+
+/* Senary */
+
 
 
 /* Buttons ------------------------- */
@@ -294,6 +378,39 @@ li {
 
 .wrapper-list + .sign-up {
     margin-left: 30px;
+}
+
+/* Quinary */
+
+.rate-text-inner + .sign-up {
+    width: 245px;
+
+    position: absolute;
+
+    left: 32px;
+    bottom: -30px;
+}
+
+.button-blue-print {
+    width: 245px;
+    height: 60px;
+
+    background: #4c3d74;
+    border: 3px solid #a387c4;
+    border-radius: 30px;
+
+    margin: 20px 55px;
+}
+
+.button-insta {
+    width: 245px;
+    height: 60px;
+
+    background: #4c3d74;
+    border: 3px solid #4c3d74;
+    border-radius: 30px;
+
+    margin: 0 55px;
 }
 
 /* Images --------------------- */
@@ -348,12 +465,24 @@ li {
 /* Quaternary */
 
 .image-container {
-    /*position: absolute;*/
-    /*right: 40px;*/
     width: 215px;
     margin-left: 70px;
 }
 
+/* Quinary */
+
+.rate-image {
+    width: 98px;
+
+    position: absolute;
+
+    top: -30px;
+    right: -35px;
+}
+
+.img-caption-quinary {
+    margin: 20px 145px 10px;
+}
 
 @media (min-width: 1315px) {
 
@@ -567,6 +696,7 @@ li {
         font-size: 16px;
         font-weight: 700;
         line-height: 150%;
+        text-align: left;
 
         margin-left: 100px;
 
@@ -810,6 +940,7 @@ li {
         border-radius: 30px;
 
         position: relative;
+        margin: 0;
     }
 
     .rate-text-inner {
@@ -924,6 +1055,8 @@ li {
     .img-caption-quinary {
         position: absolute;
         top: 20px;
+
+        margin: 0;
     }
 
     /* Senary */
@@ -1019,6 +1152,8 @@ li {
         background: #4c3d74;
         border: 3px solid #a387c4;
         border-radius: 30px;
+
+        margin: 0;
     }
 
     .button-insta {
@@ -1028,6 +1163,8 @@ li {
         background: #4c3d74;
         border: 3px solid #4c3d74;
         border-radius: 30px;
+
+        margin: 0;
     }
 
     /* Shapes ------------------------ */
