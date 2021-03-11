@@ -11,7 +11,6 @@
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FullStackConf/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../FullStackConf/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../FullStackConf/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../FullStackConf/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style-mult.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style-mult.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../treehouse" beforeDir="false" afterPath="$PROJECT_DIR$/../treehouse" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../weatherApp/.browserslistrc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../weatherApp/.editorconfig" beforeDir="false" />
@@ -56,7 +55,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="425">
@@ -65,11 +64,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style-mult.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="502">
-              <caret line="240" column="23" selection-start-line="240" selection-start-column="23" selection-end-line="240" selection-end-column="23" />
+            <state relative-caret-position="205">
+              <caret line="229" column="10" lean-forward="true" selection-start-line="229" selection-start-column="10" selection-end-line="229" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -189,15 +188,15 @@
       <updated>1614677000851</updated>
       <workItem from="1614677003749" duration="136828000" />
       <workItem from="1615384632379" duration="767000" />
-      <workItem from="1615389903240" duration="15693000" />
+      <workItem from="1615389903240" duration="16107000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="153288000" />
+    <option name="totallyTimeSpent" value="153702000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="765" y="0" width="778" height="830" extended-state="0" />
+    <frame x="765" y="0" width="778" height="830" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.9583893" />
@@ -237,17 +236,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/style-mult.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="229" column="10" lean-forward="true" selection-start-line="229" selection-start-column="10" selection-end-line="229" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="89" lean-forward="true" selection-start-line="89" selection-end-line="89" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style-mult.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="240" column="23" selection-start-line="240" selection-start-column="23" selection-end-line="240" selection-end-column="23" />
         </state>
       </provider>
     </entry>
