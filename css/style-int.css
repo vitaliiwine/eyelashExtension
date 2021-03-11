@@ -219,6 +219,16 @@ li {
     line-height: 150%;
 }
 
+/* Footer */
+
+.text-footer {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 250%;
+    letter-spacing: 1px;
+}
+
 
 /* Containers ----------------------- */
 
@@ -366,6 +376,21 @@ li {
     position: relative;
 }
 
+/* Footer */
+
+#container-footer {
+    height: 551px;
+    background: #251933;
+}
+
+.width-footer {
+    max-width: 360px;
+    margin: auto;
+}
+
+.wrapper-text-footer {
+    padding: 100px 0;
+}
 
 /* Buttons ------------------------- */
 
