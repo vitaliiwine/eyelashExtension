@@ -151,7 +151,7 @@ li {
 }
 
 .sign-up + .text-medium {
-    font-weight: bold;
+    font-weight: 800;
     font-size: 20px;
     line-height: 150%;
 
@@ -201,6 +201,24 @@ li {
     font-weight: 500;
     line-height: 150%;
 }
+
+/* Senary */
+
+.width-senary > .text-large {
+    text-align: center;
+    padding: 115px 0 40px;
+}
+
+.img-tg-up + .text-medium {
+    width: 283px;
+    margin-left: 80px;
+    text-align: left;
+
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 150%;
+}
+
 
 /* Containers ----------------------- */
 
@@ -281,7 +299,7 @@ li {
 /* Quaternary */
 
 #container-quaternary {
-    height: 1465px;
+    height: 1495px;
     background: #fff;
 }
 
@@ -332,6 +350,21 @@ li {
 
 /* Senary */
 
+#container-senary {
+    height: 1190px;
+    background: #fff;
+}
+
+.width-senary {
+    max-width: 360px;
+    margin: auto;
+
+    position: relative;
+}
+
+.container-caption-senary {
+    position: relative;
+}
 
 
 /* Buttons ------------------------- */
@@ -482,6 +515,22 @@ li {
 
 .img-caption-quinary {
     margin: 20px 145px 10px;
+}
+
+/* Senary */
+
+.img-tg-down, .img-tg-up {
+    position: absolute;
+    top: 15px;
+}
+
+.img-tg-up {
+    top: 25px;
+    left: 5px;
+}
+
+.container-caption-senary + .image-container-senary {
+    margin: 0 55px;
 }
 
 @media (min-width: 1315px) {
@@ -716,7 +765,7 @@ li {
 
     .img-tg-up + .text-medium {
         width: 360px;
-        margin-left: 20px;
+        margin-left: 80px;
     }
 
     /* Footer */
@@ -954,7 +1003,7 @@ li {
     /* Senary */
 
     #container-senary {
-        height: 890px;
+        height: 930px;
         background: #fff;
     }
 
@@ -1063,11 +1112,12 @@ li {
 
     .img-tg-up, .img-tg-down {
         vertical-align: middle;
+        top: 35px;
     }
 
     .img-tg-up {
         position: absolute;
-        top: 34px;
+        top: 45px;
         left: 8px;
     }
 
@@ -1079,6 +1129,7 @@ li {
 
     .container-caption-senary + .image-container-senary {
         right: 100px;
+        margin: 0;
     }
 
     /* Buttons --------------------- */
